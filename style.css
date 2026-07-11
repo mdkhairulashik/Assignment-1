@@ -9,7 +9,7 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width:2000px;
     margin: auto;
 }
 
@@ -17,7 +17,7 @@ img {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 12px 0;
+    padding: 30px 0;
 }
 
 ul {
@@ -55,46 +55,37 @@ ul li a {
 
 .first-btn {
     background-color: white;
-    padding: 10px 20px;
-    border-radius: 12px;
-    font-weight: 500;
-    font-size: 14px;
     color: #2563EB;
     border: 1px solid #2563EB;
-    cursor: pointer;
-    margin-top: 15px;
+    
 }
 
 
 .second-btn {
     background-color: blue;
-    padding: 10px 20px;
-    border-radius: 12px;
-    font-weight: 500;
-    font-size: 14px;
     color: white;
     border: none;
-    cursor: pointer;
-    margin-top: 15px;
-    text-decoration: none;
 
 }
-
 
 
 .third-btn {
     background-color: white;
-    padding: 10px 20px;
-    border-radius: 12px;
-    font-weight: 500;
-    font-size: 14px;
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
-    cursor: pointer;
-    margin-top: 15px;
 
 }
 
+.first-btn,
+.second-btn,
+.third-btn {
+    width: 100%;
+    padding: 14px 0;
+    border-radius:8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
 
 
 .hero-section {
@@ -177,7 +168,6 @@ ul li a {
 
 
 
-
 .secure-spot-parent {
     margin: 60px auto;
     text-align: center;
@@ -192,6 +182,7 @@ ul li a {
     gap: 8px;
 
 }
+
 
 
 .secure-spot-card-container .about-card-1 {
@@ -235,17 +226,6 @@ ul li a {
 }
 
 
-
-
-/* .about-card-1, .about-card-2, .about-card-3 {
-    flex: auto;
-    max-width: 520px;
-    height: fit-content;
-    border-radius: 12px;
-    padding: 302px 240px;
-    margin-left: 100px;
-    box-sizing: border-box;
-} */
 /* 2nd */
 
 
@@ -322,7 +302,9 @@ ul li a {
     margin-top: 10px;
     line-height: 2;
     border-top: 1px solid #E5E7EB;
+    
 }
+
 
 .about-card-3 {
     background-color: #F8F9FB;
@@ -340,8 +322,13 @@ ul li a {
 
 .about-card-3 .color {
     color: #888888;
-    
+
 }
+
+.color{
+    color: #888888;
+}
+
 
 .faq-section {
     max-width: 800px;
@@ -403,7 +390,7 @@ ul li a {
 
 .faq-item[open] .faq-icon {
     transform: rotate(45deg);
-    
+
 }
 
 .faq-answer {
@@ -424,8 +411,8 @@ footer {
     justify-content: space-between;
     gap: 15px;
     background-color: #0D1B2A;
-    padding: 30px;
-    color: #3d4d5d;
+    padding: 60px;
+    color: #4f6070;
 }
 
 footer .space {
