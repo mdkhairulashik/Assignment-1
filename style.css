@@ -70,3 +70,41 @@ ul li a {
     margin-top: auto;
 
 }
+
+
+
+.meet-the-speaker-parent {
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+.meet-the-speaker-card-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.meet-the-speaker-card-container .What-i-do-card {
+    border: 1px solid #c7c4c1;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+.meet-the-speaker-card-container .What-i-do-card h2 {
+    margin: 10px 0;
+}
+
+.meet-the-speaker-card-container .What-i-do-card p {
+    color: #757575;
+    font-size: 15px;
+}
+
+.meet-the-speaker-card-container .What-i-do-card .domain{
+    color: blue;
+    font-size: 15px;
+}
