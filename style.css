@@ -97,16 +97,20 @@ ul li a {
 
 
 
-
-
 .hero-section {
     background-image: url('./assets/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .hero-section-div {
@@ -114,14 +118,18 @@ ul li a {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+
 
 }
 
+.hero-section-div h1 {
+    margin-bottom: 26px;
+    padding: 30px;
+}
 
 
 .meet-the-speaker-parent {
-    margin: 60px auto;
+    margin:60px auto;
     text-align: center;
 
 }
@@ -155,8 +163,6 @@ ul li a {
     color: blue;
     font-size: 15px;
 }
-
-
 
 
 
@@ -296,4 +302,22 @@ ul li a {
 
 .about-card-3 .color {
     color: #888888;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #0D1B2A;
+    padding: 30px;
+    color: #3d4d5d;
+}
+
+footer .space{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
 }
