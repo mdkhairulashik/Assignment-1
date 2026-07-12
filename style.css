@@ -41,7 +41,7 @@ ul li a {
 }
 
 .common-btn {
-    background-color: blue;
+    background-color: #1D4ED8;
     padding: 10px 20px;
     border-radius: 12px;
     font-weight: bold;
@@ -49,6 +49,19 @@ ul li a {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+
+.reg-btn {
+    background-color: #1D4ED8;
+    padding: 20px 45px 20px 45px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
 
 }
 
@@ -89,11 +102,14 @@ ul li a {
 
 
 .hero-section {
-    background-image: url('./assets/banner.jpg');
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.4) 55%,
+            rgba(0, 0, 0, 0) 50%), url('./assets/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     text-align: center;
     display: flex;
@@ -106,7 +122,7 @@ ul li a {
 
 .hero-section-div {
     color: white;
-    max-width: 650px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
 
@@ -115,9 +131,16 @@ ul li a {
 
 .hero-section-div h1 {
     margin-bottom: 26px;
-    padding: 30px;
+    font-size: 80px;
+    margin-top: 12%;
+    height: 30%;
 }
 
+
+.hero-section-div p {
+    font-size: 22px;
+    font-weight: 100;
+}
 
 .meet-the-speaker-parent {
     margin: 60px auto;
@@ -312,7 +335,7 @@ ul.b {
 
 
 .b li::marker {
-  color: #2563EB; 
+    color: #2563EB;
 }
 
 
@@ -336,7 +359,7 @@ ul.c {
 
 
 .c li::marker {
-  color: #2563EB; 
+    color: #2563EB;
 }
 
 
