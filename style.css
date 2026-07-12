@@ -9,7 +9,7 @@ img {
 }
 
 .container {
-    max-width:2000px;
+    max-width: 2000px;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ ul li a {
     background-color: white;
     color: #2563EB;
     border: 1px solid #2563EB;
-    
+
 }
 
 
@@ -81,7 +81,7 @@ ul li a {
 .third-btn {
     width: 100%;
     padding: 14px 0;
-    border-radius:8px;
+    border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     margin-top: 20px;
@@ -162,8 +162,10 @@ ul li a {
 }
 
 .meet-the-speaker-card-container .What-i-do-card .domain {
-    color: blue;
+    color: #2563EB;
     font-size: 15px;
+    padding-top: 2%;
+    font-weight: 600;
 }
 
 
@@ -190,6 +192,8 @@ ul li a {
     padding: 20px;
     border-radius: 10px;
     text-align: left;
+    margin-left: 40%;
+    margin-right: 2%;
 
 }
 
@@ -207,12 +211,6 @@ ul li a {
 .secure-spot-card-container .about-card-1 .domain {
     color: blue;
     font-size: 15px;
-}
-
-.secure-spot-card-container .about-card-1 .details {
-    margin-top: 10px;
-    line-height: 2;
-    border-top: 1px solid #E5E7EB;
 }
 
 
@@ -235,6 +233,8 @@ ul li a {
     border-radius: 10px;
     text-align: left;
     color: #FFFFFF;
+    margin-right: 20%;
+    margin-left: 15%;
 
 }
 
@@ -252,13 +252,6 @@ ul li a {
 .secure-spot-card-container .about-card-2 .domain {
     color: #93C5FD;
     font-size: 15px;
-}
-
-.secure-spot-card-container .about-card-2 .details {
-    margin-top: 10px;
-    line-height: 2;
-    border-top: 1px solid #26313f;
-
 }
 
 
@@ -279,6 +272,7 @@ ul li a {
     padding: 20px;
     border-radius: 10px;
     text-align: left;
+    margin-right: 40%;
 
 }
 
@@ -298,12 +292,53 @@ ul li a {
     font-size: 15px;
 }
 
-.secure-spot-card-container .about-card-3 .details {
+
+
+ul.b {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     margin-top: 10px;
     line-height: 2;
+    margin-left: 20px;
     border-top: 1px solid #E5E7EB;
-    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
 }
+
+
+
+.b li::marker {
+  color: #2563EB; 
+}
+
+
+
+ul.c {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    color: #cad6e3;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 2;
+    margin-left: 20px;
+    border-top: 1px solid #4a5363;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+
+
+.c li::marker {
+  color: #2563EB; 
+}
+
 
 
 .about-card-3 {
@@ -325,7 +360,7 @@ ul li a {
 
 }
 
-.color{
+.color {
     color: #888888;
 }
 
@@ -403,6 +438,9 @@ ul li a {
 .faq-item[open] {
     border-color: #6b46f6;
 }
+
+
+/* footer */
 
 footer {
     text-align: center;
